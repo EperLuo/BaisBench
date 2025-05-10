@@ -22,3 +22,5 @@ For the first task, you can run the `Task1.ipynb` to download the dataset and ru
 
 **Task 2**
 For the second task, you can run the `Task2.ipynb` to get the dataset, research background information, and the multiple-choice questions (including reference answer). You can feed these to your AI scientist to evaluate their performance on real biological research scenario. We offer an example prompt in our manuscript, you can modify that to fit your AI scientist's requirement.
+
+All the dataset used in this benchmark can be found at [Huggingface](https://huggingface.co/datasets/EperLuo/BAISBench).
