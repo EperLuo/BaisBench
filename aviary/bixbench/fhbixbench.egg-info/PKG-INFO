@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: fhbixbench
+Version: 0.0.1
+Summary: BixBench
+Author-email: FutureHouse technical staff <hello@futurehouse.org>
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: aiodocker
+Requires-Dist: fhaviary[server]>=0.18.0
+Requires-Dist: fhda@ git+https://github.com/Future-House/data-analysis-crow@v1.0.0
+Requires-Dist: ldp
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+Requires-Dist: aiofiles
+Requires-Dist: google-auth
+Requires-Dist: google-cloud-storage
+Requires-Dist: google-cloud-secret-manager
+Requires-Dist: crow-client>=0.3.4
+Requires-Dist: jupyter
+Requires-Dist: nbconvert
+Requires-Dist: notebook
+Requires-Dist: nbformat
+Requires-Dist: fhlmi
+Requires-Dist: pydantic~=2.0
+Requires-Dist: datasets
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Requires-Dist: huggingface-hub
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Dynamic: license-file

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+bixbench/fhbixbench.egg-info/PKG-INFO
+bixbench/fhbixbench.egg-info/SOURCES.txt
+bixbench/fhbixbench.egg-info/dependency_links.txt
+bixbench/fhbixbench.egg-info/entry_points.txt
+bixbench/fhbixbench.egg-info/requires.txt
+bixbench/fhbixbench.egg-info/top_level.txt
+tests/test_utils.py
+tests/test_zeroshot.py

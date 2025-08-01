@@ -1,0 +1,6 @@
+model_list:
+  - model_name: qwen-plus
+    litellm_params:
+      model: openai/qwen-plus
+      api_key: "sk-f95b5265060e4603a2545173180242c7"
+      api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"

@@ -1,0 +1,11 @@
+{
+  "uuid": "Watanabe et al. (2022) Am J Respir Cell Mol Biol",
+  "short_id": "AISB-4",
+  "hypothesis": "In this research, I investigated the systemic impacts of chronic obstructive pulmonary disease (COPD), a progressive disease characterized by airflow obstruction primarily caused by long-term tobacco smoking. Using single-cell RNA sequencing (scRNA-seq), I aimed to analyze the cellular variations and inflammatory responses in lung tissues from COPD patients, non-COPD smokers, and never-smokers. I collected a total of 57,755 cells across various patients, which allowed for high-resolution insights into epithelial cell behaviors and interactions within the lung microenvironment in the context of COPD.",
+  "result": "The dataset information are provided in the hypothesis.",
+  "answer": true,
+  "categories": "['RNA-seq', 'Differential Expression Analysis', 'Transcriptomics', 'Network Biology']",
+  "paper": "10.1165/rcmb.2021-0555OC",
+  "questions": "[{'id': 'q1', 'development': '', 'question': 'How many distinct cell clusters were identified as epithelial lineages according to the data?', 'ideal_answer': 'A) 3', 'distractor_1': 'B) 4', 'distractor_2': 'C) 5', 'distractor_3': 'D) 6', 'explanation': ''}, {'id': 'q2', 'development': '', 'question': 'Which specific marker gene was associated with the inflammatory AT2 (iAT2) cell population?', 'ideal_answer': 'A) ALB', 'distractor_1': 'B) SFTPC', 'distractor_2': 'C) PD-L1', 'distractor_3': 'D) KRT5', 'explanation': ''}, {'id': 'q3', 'development': '', 'question': 'In the data, what was observed about the AT2 cell in COPD patients?', 'ideal_answer': 'A) The population increased significantly.', 'distractor_1': 'B) The expression of CXCL1 and CXCL8 increased significantly.', 'distractor_2': 'C) It remained constant.', 'distractor_3': 'D) It was absent.', 'explanation': ''}, {'id': 'q4', 'development': '', 'question': 'Which of the following pathways was found to be significantly activated in COPD iAT2 cells according to the analysis?This question has more than one ideal answer.', 'ideal_answer': 'A) Oxidative phosphorylation', 'distractor_1': 'B) regulation of TNFR1 signaling', 'distractor_2': 'C) TNF signaling', 'distractor_3': 'D) IFN-\u03b1/\u03b2 signaling', 'explanation': ''}]",
+  "data_folder": "Watanabe et al. (2022) Am J Respir Cell Mol Biol.zip"
+}

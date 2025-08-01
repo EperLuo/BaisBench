@@ -1,0 +1,36 @@
+run_name: "BAISBench-run-gpt-4o-mcq"
+
+agent:
+  agent_type: "ReActAgent"
+  agent_kwargs:
+    llm_model:
+      name: "gpt-4o"
+      parallel_tool_calls: False 
+      num_retries: 5
+      temperature: 1.0 
+    hide_old_env_states: True 
+rollout:
+  max_steps: 20
+  batch_size: 1
+  rollout_type: "aviary"
+
+notebook:
+  name: "notebook.ipynb"
+  language: "python"
+
+capsule:
+  mode: "mcq"
+  include_refusal_option: true
+  system_prompt: "CAPSULE_SYSTEM_PROMPT_MCQ"
+  prompt_templates:
+    mcq: "MCQ_PROMPT_TEMPLATE"
+    open: "OPEN_PROMPT_TEMPLATE"
+    hypothesis: "HYPOTHESIS_PROMPT_TEMPLATE"
+  eval_mode: None # when set to None, the capsule will not evaluate the answer
+  avoid_images: true
+
+paths:
+  workspace_dir: "data/workspace"
+  trajectories_dir: "data/trajectories"
+  data_folder: "data/capsules"
+  hf_repo_id: "futurehouse/bixbench"
