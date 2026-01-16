@@ -1,0 +1,29 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Wu et al. (2020) The EMBO Journal.h5ad,  and the background information: I aim to understand the heterogeneity of stromal cells in triple-negative breast cancer (TNBC) and their role in immune evasion. The tumor microenvironment (TME) is highly complex, and cancer-associated fibroblasts (CAFs) and perivascular-like (PVL) cells play critical roles in cancer progression. By using single-cell RNA sequencing (scRNA-seq), I can classify distinct stromal subpopulations and their interactions with immune cells, which may contribute to immune suppression and therapeutic resistance.
+Samples: Five primary TNBC tumors.
+Cells: 24,271 single cells sequenced with an average of 4,854 cells per patient.
+Methods: 10x Genomics scRNA-seq, flow cytometry, and computational analysis of cell-cell interactions. , analysis the data to answer the following questions: Q1: Which of the following transcriptional features distinguish inflammatory CAFs (iCAFs) in TNBC?
+A) High expression of ACTA2 and COL1A1
+B) Enrichment for CXCL12 and CXCL13
+C) Upregulation of muscle-related genes such as MYH11
+D) Absence of growth factor signaling genes
+Q2: Which ligand-receptor interaction is predicted to contribute to immune evasion in TNBC based on the transcriptomic data?
+A) CXCL12 from iCAFs interacting with CXCR4 on T cells
+B) IL6 from cancer cells binding to IL6R on T cells
+C) VEGFA from myCAFs promoting angiogenesis through VEGFR1
+D) CXCL10 from PVL cells binding to CXCR3 on dendritic cells
+Q3: How do perivascular-like (PVL) cells in TNBC differ from traditional pericytes?
+A) PVL cells express endothelial markers such as PECAM1.
+B) PVL cells are exclusively associated with blood vessels.
+C) PVL cells express genes related to muscle contractility and adhesion.
+D) PVL cells have no functional role in immune regulation.
+Q4: Which of the following findings about the tumor microenvironment in TNBC is supported by transcriptomic data?
+A) MyCAFs contribute to immune evasion by recruiting CD8+ T cells.
+B) dPVL cells correlate with reduced cytotoxic T-cell infiltration in TNBC.
+C) iCAFs express PD-L1, which enhances T-cell activation.
+D) The tumor microenvironment is exclusively composed of epithelial and immune cells.
+Q5: Which pathway is highly expressed in iCAFs and is associated with tumor growth and immune regulation?
+A) WNT signaling
+B) Hedgehog signaling
+C) JAK-STAT pathway
+D) BMP and FGF signaling
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

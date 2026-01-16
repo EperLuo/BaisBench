@@ -1,4 +1,28 @@
-# aviary/data/capsules/*
-# aviary/data/trajectories/*
-# aviary/data/workspace/*
-# Task1_data/*
+figures
+clash-for-linux/
+.vscode/
+Task1_data/*
+Task2_data/h5ad_file
+model_zoo/AutoBA/examples/*/output/*
+model_zoo/aviary
+model_zoo/Biomni/output_task1/*
+model_zoo/Biomni/output_claude_haiku
+model_zoo/Biomni/output_claude_opus
+model_zoo/Biomni/output_openai_gpt41
+model_zoo/Biomni/output_google_gemini25pro
+model_zoo/Pantheon/output_claude_haiku
+model_zoo/Pantheon/output_claude_opus
+model_zoo/Pantheon/prompt_opus
+model_zoo/Pantheon/tmp_output
+model_zoo/Pantheon/output_task1/*
+model_zoo/scChat/annotated_adata
+model_zoo/scChat/rnasc
+model_zoo/STELLA/output_task1
+model_zoo/STELLA/resource
+
+model_zoo/Pantheon/*.png
+model_zoo/Biomni/*.png
+model_zoo/Biomni/data/biomni_data
+
+preprocess_and_figure.ipynb
+Evaluate_task2.ipynb

@@ -1,0 +1,34 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Mature kidney immune.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Mature kidney full.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Mature kidney non PT parenchyma.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Fetal kidney nephron.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Fetal kidney immune.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Fetal kidney full.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Stewart et al. (2019) Science - Fetal kidney stroma.h5ad,  and the background information: I aim to map the spatiotemporal distribution of immune cells in the human kidney to understand how immune function develops and adapts in different anatomical zones. Using single-cell RNA sequencing (scRNA-seq), I can resolve immune cell diversity, spatial distribution, and transcriptional changes over time. This will help define how immune cells establish renal defense mechanisms and interact with epithelial structures in fetal and mature kidneys.
+Samples: Single-cell suspensions from 14 mature human kidneys and 6 fetal kidneys (7-16 post-conception weeks, PCW).
+Cells: 114,113 droplets captured from mature kidneys (yielding 40,268 high-quality cells) and 33,865 droplets from fetal kidneys (yielding 27,203 high-quality cells).
+Methods: Droplet-based scRNA-seq (10x Genomics), flow and mass cytometry. , analysis the data to answer the following questions: Q1: Which of the following findings about mononuclear phagocytes in the mature kidney is supported by transcriptomic data?
+A) All mononuclear phagocytes in the kidney exhibit uniform transcriptional profiles.
+B) MNPc expresses high levels of antigen presentation genes such as HLA-DRA.
+C) MNPd exhibits strong pro-inflammatory characteristics and is transcriptionally similar to MNPa.
+D) B cells in the mature kidney show higher expression of bacterial defense genes than macrophages.
+Q2: What was a key difference between immune gene expression in fetal and mature kidney epithelial cells?
+A) Mature kidney epithelial cells lacked the ability to recruit immune cells using chemokines.
+B) Fetal kidney epithelial cells secreted antimicrobial peptides at higher levels than mature kidney epithelial cells.
+C) Mature kidney epithelial cells expressed high levels of Toll-like receptor genes, while fetal kidney epithelial cells did not.
+D) Fetal kidney epithelial cells showed increased activation of neutrophil-mediated defense mechanisms.
+Q3: Which chemokine interaction was identified as important for positioning monocyte-derived macrophages in the kidney?
+A) CCL19 and its receptor CCR7
+B) TGF-β and its receptor TGFBR2
+C) IL-10 and its receptor IL-10R
+D) CX3CL1 and its receptor CX3CR1
+Q4: What feature distinguishes fetal kidney immune cells from their mature counterparts?
+A) Fetal kidney immune cells show a bias towards an anti-inflammatory macrophage phenotype.
+B) Mature kidney immune cells exhibit reduced antigen presentation capacity compared to fetal immune cells.
+C) Fetal kidney immune cells have a greater ability to mount a rapid inflammatory response.
+D) Mature kidney immune cells are primarily derived from yolk sac progenitors.
+Q5: Which of the following findings about antimicrobial peptide (AMP) expression in the kidney is supported by transcriptomic data?
+A) Mature kidney epithelial cells express LCN2 and SAA1 at high levels, while fetal kidney epithelial cells do not.
+B) Fetal kidney epithelial cells produce AMPs in response to bacterial infection at similar levels to mature kidney epithelial cells.
+C) The renal cortex, rather than the pelvic epithelium, is the primary site of AMP production.
+D) AMPs are exclusively expressed by immune cells and not by kidney epithelial cells.
+. Provide the letter options as answers.
+
+exit
+

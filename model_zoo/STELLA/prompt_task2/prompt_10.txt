@@ -1,0 +1,23 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Wang et al. (2020) Journal of Experimental Medicine - Ileum.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Wang et al. (2020) Journal of Experimental Medicine - Rectum.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Wang et al. (2020) Journal of Experimental Medicine - Colon.h5ad,  and the background information: In this research, I aimed to investigate the nutrient absorption functions of the human intestine by analyzing intestinal epithelial cells from the human ileum, colon, and rectum. The human intestine plays a crucial role in the digestion and absorption of nutrients, but the specific cellular mechanisms, especially differences across intestinal regions, remain largely unclear. Using single-cell RNA sequencing (scRNA-seq), I profiled 14,537 epithelial cells from human ileum, colon, and rectum obtained from six donors (two per region) to better understand nutrient absorption functions in the small and large intestine and to identify potential new marker genes for various cell types involved in these processes.
+The sequencing was done using the 10X Genomics platform, producing high-quality transcriptomic data, which allowed me to perform detailed analyses of gene expression in different regions of the human gut. The key findings from these analyses help define the roles of different intestinal cell types in nutrient absorption, including Paneth-like cells (PLCs) in the large intestine, and new markers for transient-amplifying (TA) cells and goblet cells.
+ , analysis the data to answer the following questions: Q1: Which cell type was most abundant in the human ileum according to the single-cell transcriptomic data?
+A) Goblet cells
+B) Enterocytes
+C) Paneth cells
+D) Stem cells
+Q2: Which new marker was identified for transient-amplifying (TA) cells in the human intestine?
+A) NUSAP1
+B) CDX2
+C) SOX9
+D) LGR5
+Q3: Which gene was identified as being enriched in goblet cells in all three regions of the human intestine (ileum, colon, and rectum)?
+A) ITLN1
+B) TFF1
+C) MYC
+D) APOA1
+Q4: The data identified Paneth-like cells (PLCs) in the large intestine. What gene can NOT be used to identify these cells?
+A) LYZ
+B) CA4
+C) APOA4
+D) SPIB
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

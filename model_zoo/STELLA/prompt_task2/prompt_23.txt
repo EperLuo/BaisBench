@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Phan et al. (2024) Nat Commun.h5ad,  and the background information: In this study, I aimed to explore the molecular changes in the human dorsal striatum associated with opioid use disorder (OUD). The striatum is crucial in reward processing and goal-directed behaviors, and its dysfunction is linked to psychiatric disorders like OUD. I used single-nucleus RNA sequencing (snRNA-seq) to analyze 98,848 nuclei from the caudate and putamen of both unaffected individuals and individuals with OUD. This allowed for a detailed understanding of cell-specific molecular alterations, focusing on changes in neuroinflammation, DNA damage, and oxidative stress pathways.  , analysis the data to answer the following questions: Q1: Which of the following neuronal subtypes in the striatum showed the highest DNA damage markers in individuals with opioid use disorder (OUD)?
+A) D1-striosome neurons
+B) D2-matrix neurons
+C) Interneurons
+D) D1/D2-hybrid neurons
+Q2: Which of the following pathways were significantly upregulated in glial cells of individuals with OUD?
+A) Interferon response
+B) DNA replication
+C) Synaptic signaling
+D) Mitochondrial respiration
+Q3: Which opioid receptor was detected in microglia across individuals in the study?
+A) OPRM1
+B) OPRD1
+C) OPRK1
+D) Both A and B
+Q4: What transcription factor-regulatory module was highly enriched in D1/D2-hybrid medium spiny neurons (MSNs) related to opioid use disorder (OUD)?
+A) ZNF83
+B) RXRG
+C) FOXP2
+D) RUNX1
+Q5: What were the sex-specific transcriptional differences in individuals with OUD compared to unaffected individuals?
+A) More DEGs in glial cells in females with OUD
+B) More DEGs in neurons in males with OUD
+C) Upregulation of DNA repair in males with OUD
+D) Increased interferon response in neurons in females
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

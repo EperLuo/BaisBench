@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Fasolino et al. (2022) Nat Metab.h5ad,  and the background information: In this study, I focused on exploring the pancreatic islet environment in individuals with Type 1 Diabetes (T1D), autoantibody-positive individuals (AAb+), and control subjects without T1D. The goal was to identify novel cellular states and molecular perturbations linked to T1D pathogenesis by leveraging single-cell multi-omics technologies. I performed single-cell RNA sequencing (scRNA-seq) on over 80,000 cells from pancreatic islets, combining it with mass cytometry (CyTOF) and imaging mass cytometry (IMC) to map the gene expression, protein markers, and spatial distributions of the cells. This comprehensive dataset allowed for detailed insights into the cellular and molecular dynamics in T1D. , analysis the data to answer the following questions: Q1: Which cell types were identified in the pancreatic islets using single-cell RNA sequencing?
+A) Beta cells
+B) Ductal cells
+C) Skeletal muscle cells
+D) None of the above
+Q2: What were the key characteristics of the "Hybrid" cells identified in the pancreatic islets?
+A) They expressed high levels of INS
+B) They were a mixture of endocrine and exocrine markers
+C) They had no expression of INS
+D) They were predominantly found in the T1D donor group
+Q3: Which of the following genes were upregulated in Beta-main cells of T1D and AAb+ donors?
+A) NPTX2
+B) CD68
+C) GDF15
+D) INS
+Q4: What role did ductal cells in T1D donors exhibit based on the data?
+A) Expression of MHC Class II markers
+B) High levels of CD80 and CD86 for T cell activation
+C) Increased expression of interferon genes
+D) They acted as professional antigen-presenting cells
+Q5: Which of the following statements correctly describes a key transcriptional feature of ductal cells in T1D donors according to the data?
+A) T1D ductal cells highly express co-stimulatory molecules CD80 and CD86, promoting T cell activation.
+B) T1D ductal cells show significant enrichment of the DC2 gene signature, indicating similarity to plasmacytoid dendritic cells.
+C) T1D ductal cells express CLEC9A and CD141, confirming their identity as conventional DCs.
+D) T1D ductal cells exhibit DC1 gene signature enrichment but lack co-stimulatory molecules, suggesting a tolerogenic role.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

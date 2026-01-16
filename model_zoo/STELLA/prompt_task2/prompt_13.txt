@@ -1,0 +1,27 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Solé-Boldo et al. (2020) Commun Biol.h5ad,  and the background information: In this study, I investigated fibroblast heterogeneity and age-related changes in human skin using single-cell RNA sequencing (scRNA-seq). The focus was on defining fibroblast subpopulations and understanding how their functional priming changes with age. The dataset comprises transcriptomes from 15,457 single cells, including 5,948 fibroblasts, obtained from five male donors (aged 25, 27, 53, 69, and 70 years). The samples were taken from a sun-protected region to minimize photoaging effects. This data aims to identify fibroblast subpopulations, characterized their functions, and analyzed the impact of aging on fibroblast identity and cell–cell interactions.
+ , analysis the data to answer the following questions: Q1: Which of the following fibroblast subpopulations were identified in the human dermis using single-cell transcriptomics?
+A) Secretory-reticular fibroblasts
+B) Myofibroblasts
+C) Pro-inflammatory fibroblasts
+D) Mesenchymal fibroblasts
+Q2: What changes in fibroblast behavior were observed in aged human skin?
+A) Loss of fibroblast functional specialization
+B) Increased ECM production by fibroblasts
+C) Reduced interactions between fibroblasts and undifferentiated keratinocytes
+D) Increased expression of SAASP family genes
+Q3: Which collagen genes were highly expressed in secretory-reticular fibroblasts?
+A) COL18A1
+B) COL11A1
+C) COL13A1
+D) COL24A1
+Q4: Which of the following statements about fibroblast aging are supported by the transcriptomic data?
+A) The expression profiles from old fibroblasts indicate a significant delay at the G1/S transition of the cell cycle in the pro-inflammatory and secretory-papillary subpopulations
+B) Aging fibroblasts exhibit reduced expression of inflammatory cytokines
+C) Fibroblast aging leads to reduced ECM gene expression
+D) Aging fibroblasts show increased interactions with keratinocytes
+Q5: Which fibroblast subpopulation was closely associated with the vasculature?
+A) Secretory-reticular fibroblasts
+B) Mesenchymal fibroblasts
+C) Pro-inflammatory fibroblasts
+D) Secretory-papillary fibroblasts
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

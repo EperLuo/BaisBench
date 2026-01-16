@@ -1,0 +1,6 @@
+/model gpt-4.1 
+
+ Given this scRNA-seq dataset from a human Trachea sample: /data/lep/BaisBench/Task1_data/Trachea_raw.h5ad, Perform basic analysis on cell data and annotate cell types. Annotations must be based on knowledge and cannot utilize external tools such as CellTypist. Return the annotated cell data in h5ad format. Save the annotated file in /data/lep/BaisBench/model_zoo/Pantheon/output_task1/Trachea.h5ad
+
+exit
+

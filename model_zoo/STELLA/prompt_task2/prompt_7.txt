@@ -1,0 +1,22 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Fan et al. (2019) Nat Commun.h5ad,  and the background information: The research aims to understand follicular remodeling in the adult human ovary, a process that involves the growth and regression of ovarian follicles. The ovary undergoes continuous remodeling throughout a woman’s reproductive years, with follicles maturing, growing, and undergoing atresia (degeneration). This dynamic process is vital for fertility, but the molecular mechanisms remain unclear. Using single-cell RNA sequencing (scRNA-seq), the study aimed to map the molecular signatures of the growing and regressing follicular populations in the human ovary, identify the somatic cell types involved, and explore their signaling pathways.
+The sequencing data was obtained from 31 ovarian tissue samples from 5 women undergoing fertility preservation. The samples included growing and atretic (degenerating) follicles. The 10X Genomics platform was used to sequence 56,206 cells, which were filtered for quality and analyzed further, resulting in a final dataset of 20,676 cells representing granulosa cells (GC), theca cells (TC), immune cells, and other ovarian cell types. , analysis the data to answer the following questions: Q1: Which of the following is true regarding the theca cell (TC) populations identified in the dataset?
+A) There are four distinct TC populations identified in growing follicles.
+B) Atretic follicles TC show high expression of FOS and IGFBP5 compare to other TC.
+C) The TC populations do not exhibit any differences in gene expression across different follicular stages.
+D) The externa TC (exTC) is only found in early growing follicles.
+Q2: The data showed the presence of which immune cell populations in the ovary?
+A) Only T cells
+B) Only NK cells
+C) T cells, NK cells, B cells
+D) Only macrophages
+Q3: In the analysis of granulosa cells (GC), which marker is associated with the common progenitor signature of GC in small antral follicles?
+A) EGR4
+B) VCAN
+C) AMH
+D) WT1
+Q4: Which of the following conclusions about the complement system in the ovary is supported by the data?
+A) Complement activation is only involved in immune responses in the ovary, not in follicular remodeling.
+B) The complement system plays no role in follicular atresia.
+C) The complement system components such as C1S, C1Q, and C7 are locally produced by theca cells and stromal cells during follicular remodeling.
+D) The complement system is primarily produced in the liver and has no local effects in the ovary.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

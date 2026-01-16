@@ -1,0 +1,7 @@
+data_list:
+- '/stor/lep/workspace/AISbenchmark/Task1_data/Kidney_raw.h5ad: single-cell RNA-seq
+  data from human Kidney.'
+goal_description: Given this single-cell RNA-seq dataset from human Kidney, annotate
+  the cell type for each cell and return the h5ad file to me. Annotation must be done
+  based on knowledge; external tools like CellTypist cannot be used
+output_dir: /stor/lep/workspace/AISbenchmark/AutoBA/examples/Kidney/output

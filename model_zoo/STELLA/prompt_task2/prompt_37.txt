@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Binvignat et al. (2024) JCI Insight.h5ad,  and the background information: In this study, I aimed to explore the molecular mechanisms underlying rheumatoid arthritis (RA), focusing specifically on disease activity and the immune system. RA is an autoimmune disorder that causes chronic inflammation and joint damage, but the molecular mechanisms contributing to disease progression remain unclear. My approach involved using single-cell RNA sequencing (scRNA-seq) to analyze peripheral blood mononuclear cells (PBMCs) from 36 participants—18 RA patients and 18 matched controls. The sequencing data consists of 125,698 cells and 22,159 genes from PBMCs, sequenced using the 10X Genomics Chromium system. The patients were stratified into two groups based on disease activity: remission-low disease activity (DAS28-CRP < 3.2) and moderate-high disease activity (DAS28-CRP ≥ 3.2). , analysis the data to answer the following questions: Q1: Which of the following immune cell subsets showed a significant increase in patients with moderate-high disease activity in RA?
+A) CD4+ T central memory cells
+B) Nonclassical monocytes
+C) Naive B cells
+D) CD8+ naive T cells
+Q2: Which gene has elevated levels in IFITM3+ IFN-activated monocytes in patients with RA?
+A) TNF
+B) ISG15
+C) CD86
+D) CXCR4
+Q3: Which of the following genes was downregulated in γδ T cells in RA patients with moderate-high disease activity?
+A) TNF
+B) ISG15
+C) IFNG
+D) EGR1
+Q4: Which pathway was upregulated in both patients with moderate-high disease activity and those in remission-low disease activity in RA?
+A) TGF-β signaling
+B) VISTA signaling
+C) VEGF signaling
+D) IL-2 signaling
+Q5: Which of the following cell types showed a decrease in proportions in RA patients with remission-low disease activity compared to both controls and patients with moderate-high disease activity?
+A) Nonclassical monocytes
+B) CD8+ naive T cells
+C) Memory B cells
+D) CD4+ effector memory T cells
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Lee et al. (2020) Sci. Immunol..h5ad,  and the background information: The article explores the immune response of patients with COVID-19 and influenza by analyzing peripheral blood mononuclear cells (PBMCs) from patients with varying degrees of disease severity (mild, severe, and asymptomatic COVID-19). The goal was to uncover factors contributing to severe disease progression. Single-cell RNA sequencing (scRNA-seq) was employed to analyze the transcriptomes of 59,572 cells using the 10× Genomics platform. This data analysis allowed the identification of immune signatures associated with severe COVID-19 and influenza. , analysis the data to answer the following questions: Q1: Which immune cell type increased significantly in severe COVID-19 compared to mild COVID-19?
+A. Dendritic cells
+B. NK cells
+C. Classical monocytes
+D. CD4+ T cells
+Q2: Which inflammatory response was prominently observed in classical monocytes in severe COVID-19?
+A. Type I interferon (IFN-I) response
+B. Type II interferon (IFN-II) response
+C. TLR4-induced immune response
+D. NFKB pathway inhibition
+Q3: Which of the following cell types decreased in proportion in severe COVID-19 compared to healthy donors? (Multiple answers possible)
+A. Dendritic cells
+B. IgG+ B cells
+C. Classical monocytes
+D. NK cells
+Q4: What was a key feature in the trajectory analysis of classical monocytes from severe COVID-19 patients?
+A. A high correlation with IFN-I signaling
+B. Lack of TNF/IL-1β signature
+C. An early increase in NK cell markers
+D. A shift from TNF to IL-6 dominance
+Q5: Which of the following cytokines showed a significant increase in plasma concentrations in severe COVID-19?
+A. IFN-α
+B. IL-18
+C. IL-10
+D. TNF-α
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

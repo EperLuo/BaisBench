@@ -1,0 +1,21 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Mimpen et al. (2024) The FASEB Journal.h5ad,  and the background information: In this study, I aimed to better understand the cellular composition and function of healthy human hamstring tendon. Using single nucleus RNA sequencing (snRNA-seq) and spatial transcriptomics, I profiled the transcriptomes of 10,533 nuclei from the hamstring tendon of four healthy donors. These technologies allowed me to identify a broad range of cell types within the tendon, including fibroblasts, endothelial cells, skeletal muscle cells, and immune cells. The spatial distribution of these cell types was also mapped, providing insights into how the cells interact and contribute to tendon homeostasis. This comprehensive analysis aims to improve the understanding of tendon biology, with potential applications in the treatment of tendon-related diseases. , analysis the data to answer the following questions: Q1: Which two fibroblast subsets were identified in the human hamstring tendon?
+A) MKX+ and PDGFRA+ fibroblasts
+B) TGFβ+ and FGF+ fibroblasts
+C) COL1A1+ and COL3A1+ fibroblasts
+D) TNMD+ and THBS4+ fibroblasts
+Q2: Which of the following skeletal muscle markers were used to identify the fast-twitch and slow-twitch skeletal muscle cells in the tendon?
+A) TRDN and TNNT3 for fast-twitch cells
+B) DES and TNNT1 for slow-twitch cells
+C) TNNT1 and TNNC2 for fast-twitch cells
+D) TRDN and COL22A1 for transitional cells
+Q3: Which of the following gene expression markers was used to identify endothelial cells in the human hamstring tendon?
+A) PDGFRB
+B) TRDN
+C) PECAM1
+D) PAX7
+Q4: What role did the MKX+ and PDGFRA+ fibroblasts play in tendon tissue?
+A) They regulate immune cell interactions in the tendon.
+B) They are involved in collagen synthesis and elastin fiber formation.
+C) They play a critical role in muscle contraction.
+D) They are the main producers of ECM in the tendon.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

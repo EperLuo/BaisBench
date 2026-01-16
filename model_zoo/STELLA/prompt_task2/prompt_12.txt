@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Rustam et al. (2023) Am J Respir Crit Care Med.h5ad,  and the background information: In my research, I focused on understanding the unique cellular organization of human distal airways and how this organization is altered in chronic obstructive pulmonary disease (COPD). I utilized a novel dissection method to obtain single-cell transcriptomic data from distal airways, allowing me to analyze the cellular composition in detail. The dataset comprised a total of 111,412 single cells isolated from different airway regions of 12 healthy lung donors and pre-terminal bronchioles from 5 patients with COPD. This analysis aimed to identify the biological changes occurring in the distal airways in COPD at single-cell resolution. , analysis the data to answer the following questions: Q1: What unique cell population was characterized as specific to distal airways in the provided data?
+A) Basal cells
+B) Ciliated cells
+C) Terminal airway-enriched secretory cells (TASCs)
+D) Mucous cells
+Q2: In the data, which cell type exhibited a significant increase in frequency in COPD patients compared to healthy subjects?
+A) Neutrophils
+B) CD81 T cells
+C) Mucous cells
+D) Basal cells
+Q3: What was one of the significant findings regarding the expression of genes in COPD distal airways?
+A) Upregulation of SCGB3A2
+B) Increased SFTPA1 expression
+C) Upregulation of IFN-g response genes
+D) Downregulation of SCGB1A1
+Q4: Which type of cells were identified as having reduced differentiative potential in COPD according to the data?
+A) Terminal cells
+B) Basal cells
+C) Transitional cells
+D) Macrophages
+Q5: The data identified TASCs as being lost in which specific regions of the airway in COPD patients?
+A) Proximal bronchioles
+B) Larger airways
+C) Alveolar ducts
+D) Pre-terminal bronchioles and terminal bronchioles
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

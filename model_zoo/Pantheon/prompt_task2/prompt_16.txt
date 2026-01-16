@@ -1,0 +1,35 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Szabo et al. (2019) Nat Commun.h5ad,  and the background information: T cells play a crucial role in adaptive immunity, but their function and persistence vary depending on the tissue microenvironment. While blood-derived T cells have been extensively studied, less is known about how T cell function is shaped by tissue-specific contexts such as the lungs, lymph nodes, and bone marrow. We used single-cell RNA sequencing (scRNA-seq) to profile more than 50,000 resting and activated T cells from different anatomical sites to understand their transcriptional signatures in homeostasis and activation. Our study establishes a high-resolution reference map of human T cell states across tissues, providing a framework to analyze immune responses in health and disease.
+Sample Source: T cells were isolated from lungs, lymph nodes, bone marrow (from two organ donors), and peripheral blood (from two healthy volunteers).
+Cell Isolation & Processing: CD3+ T cells were negatively selected, cultured in either resting conditions or activated using anti-CD3/anti-CD28 stimulation.
+Sequencing Platform: Chromium 10X Genomics system, sequenced on an Illumina HiSeq 4000.
+Final Dataset: >50,000 T cells, classified into resting and activated states, across CD4+ and CD8+ T cell subtypes. , analysis the data to answer the following questions: Q1: Which of the following activation states was identified in CD4+ T cells based on single-cell transcriptomic data?
+A) An interferon-responsive state characterized by IFIT3 and STAT1 expression
+B) A cytotoxic state with increased PRF1 and GZMK expression
+C) A naive state expressing FOXP3 and IL2RA
+D) A quiescent state defined by upregulated PD-1 and LAG3
+Q2: What distinguishes lung tissue-resident memory (TRM) T cells from blood-derived T cells in terms of gene expression?
+A) Exclusive expression of exhaustion markers such as PD-1 and CTLA4
+B) Complete absence of memory-associated markers such as CCR7
+C) Higher expression of cytoskeletal and adhesion genes such as VIM and ITGA1
+D) Increased secretion of immunoglobulins
+Q3: Which transcriptional module was identified in activated CD8+ T cells based on single-cell transcriptomic data?
+A) A proliferation module characterized by upregulated NME1 and IL2
+B) A regulatory module defined by FOXP3 and IL10 expression
+C) A senescence module with increased expression of CDKN1A and TP53
+D) A quiescence module expressing high levels of LEF1 and CCR7
+Q4: Which statement best describes the relationship between tumor-infiltrating T cells and healthy tissue T cells based on transcriptomic data?
+A) Tumor-infiltrating T cells exclusively align with naive blood T cells
+B) Tumor-infiltrating CD8+ T cells share transcriptional features with activated tissue-resident CD8+ T cells
+C) Tumor-infiltrating T cells express high levels of IL2 but lack cytotoxic markers
+D) Tumor-infiltrating T cells are functionally identical to resting lymph node T cells
+Q5: Which gene was found to be associated with T cell exhaustion in tumor-infiltrating T cells, based on single-cell transcriptomic data?
+A) IL2RA
+B) CXCR6
+C) GATA3
+D) PDCD1
+. Provide the letter options as answers.
+
+exit
+

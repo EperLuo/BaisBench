@@ -1,2 +1,0 @@
-[console_scripts]
-run_expt = scripts.configurable:_run_expt

@@ -1,0 +1,27 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Melms et al. (2021) Nature.h5ad,  and the background information: In this research, I investigated the cellular and molecular responses of the lung during lethal COVID-19. My goal was to provide insights into the host response at the tissue level, which remains poorly understood despite the vast number of COVID-19 cases. I utilized single-nucleus RNA sequencing to analyze approximately 116,000 nuclei from lung tissues of 19 COVID-19 patients who underwent rapid autopsy and 7 control individuals. The integration of this data allows for a detailed characterization of changes in cellular composition, transcriptional states, and potential therapeutic targets. , analysis the data to answer the following questions: Q1: What major cell types were identified in the lungs of COVID-19 patients based on single-nucleus RNA sequencing data?
+A) Epithelial cells
+B) Fibroblasts
+C) Neuronal cells
+D) Myeloid cells
+E) Smooth muscle cells
+Q2: Which cell type exhibited a significant reduction in COVID-19 lungs compared to control lungs?
+A) Alveolar type 1 (AT1) cells
+B) Endothelial cells
+C) Mast cells
+D) Plasma cells
+Q3: What marker genes were used to identify damage-associated transient progenitors (DATPs) in the alveolar epithelium?
+A) KRT8, CLDN4, CDKN1A
+B) ACE2, TMPRSS2
+C) PDGFRA, COL1A1
+D) IL-6, TNF-alpha
+Q4: Which of the following statements about the findings related to myeloid cells and inflammation in COVID-19 are true?
+A) Aberrant activation of macrophages was observed in COVID-19 patients.
+B) Immune response markers were absent in macrophages from patients with COVID-19.
+C) Macrophages in COVID-19 lungs expressed interleukin-1β at higher levels than controls.
+D) The proportion of monocytes decreased in COVID-19 lungs compared to controls.
+Q5: What conclusion can be drawn about T cell responses in the lungs of individuals who died of COVID-19?
+A) T cell populations were significantly increased.
+B) There was an adequate CD8+ T cell response.
+C) T cell responses were inadequate despite an adequate humoral immune response.
+D) Circulating T cells showed no response to the infection.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

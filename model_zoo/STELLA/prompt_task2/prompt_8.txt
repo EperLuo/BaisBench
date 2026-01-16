@@ -1,0 +1,27 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Whitfield et al. (2023) Clinical &amp; Translational Med.h5ad,  and the background information: I aimed to investigate the cellular heterogeneity in malignant pleural effusions (MPEs) associated with metastatic breast cancer. MPEs occur frequently in advanced breast cancer, yet their cellular composition and interactions within the pleural microenvironment remain poorly understood. Identifying malignant vs. non-malignant cells, understanding the role of mesothelial cells, and determining patient-level differences in MPE composition can provide insights into breast cancer metastasis.
+Using single-cell RNA sequencing (scRNA-seq), I analyzed nearly 65,000 cells from 10 pleural effusion samples across seven patients with metastatic breast cancer. The sequencing was performed using the 10X Genomics Chromium platform, with Miltenyi-based negative selection enrichment in some samples. The dataset includes malignant breast cancer cells, mesothelial cells, immune cells (T, NK, B, myeloid cells), and fibroblast-like cells, allowing an unbiased characterization of the pleural tumor microenvironment. , analysis the data to answer the following questions: Q1: Which major cell type was least abundant in breast cancer pleural effusions?
+A) Malignant cells
+B) T cells
+C) B cells
+D) Mesothelial cells
+Q2: Which marker was identified as highly expressed in mesothelial cells but not in malignant cells?
+A) EPCAM
+B) WT1
+C) MUC1
+D) CDH1
+Q3: Which molecular signaling/pathway was identified as a potential tumor-supporting mechanism in MPEs?
+A) Wnt signaling
+B) FGF2 signaling
+C) Hedgehog pathway
+D) JAK-STAT pathway
+Q4: Which of the following genes were identified as key distinguishing markers for malignant vs. mesothelial cells?
+A) EPCAM
+B) WT1
+C) MKI67
+D) MSLN
+Q5: Which key feature distinguished malignant cells from mesothelial cells in pleural effusions?
+A) Expression of shared markers like KRT8 and VIM
+B) High levels of CD8+ T cell infiltration
+C) Presence of immune checkpoint markers like PD-1 and CTLA4
+D) Copy number variations (CNVs) on chromosome 8q and 17q
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Moerkens et al. (2024) Cell Reports - media.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Moerkens et al. (2024) Cell Reports - IFN.h5ad,  and the background information: In this study, I aimed to explore the cellular and molecular dynamics of human small intestine development using a human-induced pluripotent stem cell (iPSC)-derived small intestine-on-chip model. The goal was to understand self-organization and tissue maturation processes at the cellular level. To analyze gene expression across various stages of development, I performed single-cell RNA sequencing (scRNA-seq) on the organoid model. The dataset consists of 30,000 cells from several replicates of iPSC-derived small intestine cultures. This resource provides detailed insights into the transcriptional landscape and cell-type diversity within the small intestine model, which is valuable for understanding both healthy tissue development and disease mechanisms. , analysis the data to answer the following questions: Q1: Which of the following cell types was identified in the small intestine-on-chip model through single-cell RNA sequencing?
+A) Myocytes
+B) Enterocytes
+C) Hepatocytes
+D) Adipocytes
+Q2: Which of the following features were observed in the iPSC-derived small intestine-on-chip model?
+A) Cell type-specific gene expression
+B) Dynamic transcriptional changes across developmental stages
+C) Static gene expression profiles across all cell types
+D) Formation of neuronal cell clusters
+Q3: Which of the following pathways were enriched in the differentiated small intestine tissue according to the data?
+A) Epithelial cell signaling
+B) Gut barrier function
+C) Neural signaling pathways
+D) Fatty acid metabolism
+Q4: What type of cells were involved in self-organization within the iPSC-derived small intestine model?
+A) Paneth cells
+B) Enterocytes
+C) Fibroblasts
+D) Goblet cells
+Q5: What does the gene expression profile of the small intestine-on-chip model suggest about its maturation?
+A) It indicates successful differentiation into functional small intestine tissue.
+B) It shows no significant differentiation across stages.
+C) It confirms the formation of neurons in the model.
+D) It highlights only the presence of immune cells in the tissue.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

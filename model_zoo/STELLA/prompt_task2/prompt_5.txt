@@ -1,0 +1,21 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Watanabe et al. (2022) Am J Respir Cell Mol Biol.h5ad,  and the background information: In this research, I investigated the systemic impacts of chronic obstructive pulmonary disease (COPD), a progressive disease characterized by airflow obstruction primarily caused by long-term tobacco smoking. Using single-cell RNA sequencing (scRNA-seq), I aimed to analyze the cellular variations and inflammatory responses in lung tissues from COPD patients, non-COPD smokers, and never-smokers. I collected a total of 57,755 cells across various patients, which allowed for high-resolution insights into epithelial cell behaviors and interactions within the lung microenvironment in the context of COPD. , analysis the data to answer the following questions: Q1: How many distinct cell clusters were identified as epithelial lineages according to the data?
+A) 3
+B) 4
+C) 5
+D) 6
+Q2: Which specific marker gene was associated with the inflammatory AT2 (iAT2) cell population?
+A) ALB
+B) SFTPC
+C) PD-L1
+D) KRT5
+Q3: In the data, what was observed about the AT2 cell in COPD patients?
+A) The population increased significantly.
+B) The expression of CXCL1 and CXCL8 increased significantly.
+C) It remained constant.
+D) It was absent.
+Q4: Which of the following pathways was found to be significantly activated in COPD iAT2 cells according to the analysis?
+A) Oxidative phosphorylation
+B) regulation of TNFR1 signaling
+C) TNF signaling
+D) IFN-α/β signaling
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

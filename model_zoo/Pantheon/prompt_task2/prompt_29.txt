@@ -1,0 +1,31 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Li et al. (2024) Cell Stem Cell.h5ad,  and the background information: As a student in bioinformatics, I am interested in understanding how maternal immune cells interact with fetal trophoblasts during early pregnancy and the implications of these interactions on placentation and reproductive outcomes. Our research focuses on uterine natural killer (uNK) cells, which are crucial for facilitating successful implantation and maternal-fetal tolerance. We employed single-cell RNA sequencing (scRNA-seq) to analyze the transcriptomic profile of uNK cells, aiming to identify specific cytokine signals that influence trophoblast differentiation and function. The sequencing data was derived from matched decidual and fetal tissue samples collected from 19 healthy first-trimester donors. , analysis the data to answer the following questions: Q1: What specific cytokines are significantly upregulated in KIR2DS1 positive uNK cells upon interaction with C2+HLA-C?
+A) IL-10
+B) CSF2
+C) INF-γ
+D) TNF-α
+Q2: The extracellular receptors for which of the following cytokines were found to be expressed on EVT cells?
+A) IL-6
+B) XCL1
+C) PDGF
+D) TGF-β
+Q3: The addition of uNK-derived cytokines to trophoblast organoids resulted in what specific outcome?
+A) Enhanced differentiation into late-stage EVT cells
+B) Increased apoptosis in trophoblast cells
+C) Decreased expression of trophoblast markers
+D) No observable changes in trophoblast differentiation
+Q4: The data demonstrated alignment in transcriptomic profiles between in vitro organoids and cells from which type of tissue?
+A) Fetal adipose tissue
+B) Peripheral blood tissue
+C) Maternal muscle tissue
+D) First-trimester implantation sites
+Q5: Which of the following cytokine receptors shown to be enriched in EVT after uNK cytokine treatment does not signal but acts as a decoy?
+A) IL2RB
+B) CSF1R
+C) IL1R2
+D) XCR1
+. Provide the letter options as answers.
+
+exit
+

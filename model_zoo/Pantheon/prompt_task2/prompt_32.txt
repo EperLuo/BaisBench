@@ -1,0 +1,31 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Burclaff et al. (2022) Cellular and Molecular Gastroenterology and Hepatology.h5ad,  and the background information: In this research, I aimed to create a comprehensive single-cell transcriptomic atlas of the healthy adult human small intestine and colon. The objective was to characterize the cellular diversity and functional roles of epithelial cells throughout the gastrointestinal tract, as few studies have focused on this using single-cell RNA sequencing (scRNA-seq). I utilized scRNA-seq techniques to analyze epithelial cells collected from the duodenum, jejunum, ileum, and the ascending, transverse, and descending colon from three healthy organ donors. In total, I processed 12,590 single epithelial cells, generating valuable insights into the organization and functionality of various cell types across the intestinal tract. , analysis the data to answer the following questions: Q1: How many distinct epithelial lineage clusters were identified in the small intestine and colon based on transcriptomic data?
+A) 15
+B) 20
+C) 25
+D) 30
+Q2: Which classic markers were identified as being expressed by intestinal stem cells (ISCs) in the data?
+A) CD4, CD8
+B) LGR5, ASCL2, SLC12A2
+C) CCL2, TNF-alpha
+D) MUC2, MUC5AC
+Q3: What were "BEST4+ cells" found to express that is involved in gastrointestinal function?
+A) Insulin
+B) Neuropeptide Y (NPY)
+C) Cholecystokinin (CCK)
+D) Eicosanoids
+Q4: Which receptor family was identified to have a high expression in tuft cells according to the data?
+A) G Protein-Coupled Receptors
+B) Receptor Tyrosine Kinases
+C) Nuclear Hormone Receptors
+D) Toll-Like Receptors
+Q5: Which of the following statements accurately reflects a finding about human Paneth cells (PCs) from the data?
+A) Human PCs express high levels of WNT3 and RSPO1, supporting their role as niche-supporting cells.
+B) Human PCs express OLFM4 and other canonical ISC markers, suggesting strong stem-like potential.
+C) Human PCs express DLL1 and DLL4 at higher levels than secretory progenitors, supporting a Notch-signaling niche role.
+D) Human PCs show strong expression of SMOC2 and antimicrobial peptides, suggesting a WNT-receptive and protective function rather than niche-supporting.
+. Provide the letter options as answers.
+
+exit
+

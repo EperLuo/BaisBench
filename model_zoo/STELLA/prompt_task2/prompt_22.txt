@@ -1,0 +1,30 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Opasawatchai et al. (2022) Front. Dent. Med.h5ad,  and the background information: Dental caries can cause significant changes in dental pulp, affecting immune responses and tissue repair mechanisms. Understanding how different cell types within the pulp respond to caries at a single-cell resolution is crucial for advancing regenerative dentistry. While bulk transcriptomics has provided insights into global gene expression changes, single-cell RNA sequencing (scRNA-seq) allows us to identify cellular heterogeneity and interactions that drive disease progression and tissue response. We used scRNA-seq to characterize cell populations and their molecular responses in sound and carious teeth, highlighting immune cell alterations and cell-cell interactions in deep dental caries.
+Sample Source: Dental pulp tissues were isolated from one sound human maxillary third molar and three carious teeth (one with enamel caries, two with deep dental caries).
+Cell Isolation & Processing: Enzymatic digestion with collagenase and dispase was used to dissociate the dental pulp tissue into single cells.
+Sequencing Platform: Chromium 10X Genomics system (v2 chemistry), sequenced on an Illumina HiSeq system.
+Final Dataset: 6,810 high-quality single cells were analyzed. , analysis the data to answer the following questions: Q1: Which immune cell population was uniquely present in deep dental caries but absent in sound and enamel caries samples?
+A) Neutrophils
+B) CD103+ Dendritic Cells
+C) Natural Killer (NK) Cells
+D) Basophils
+Q2: Which of the following genes was upregulated in deep dental caries and is known to regulate endothelial cell activation and leukocyte adhesion?
+A) SFTPB
+B) VCAM1
+C) COL1A1
+D) AMELX
+Q3: What ligand-receptor interaction was uniquely enriched in deep dental caries based on the single-cell transcriptomic data?
+A) TIMP1-CD63
+B) PDGF-B-PDGFRA
+C) NOTCH1-JAG1
+D) VEGFA-FLT1
+Q4: Which of the following best describes the role of macrophages in deep dental caries, as inferred from single-cell transcriptomic data?
+A) They secrete amelogenin to regenerate enamel.
+B) They express antigen presentation genes such as HLA-DPA1 and HLA-DPB1.
+C) They produce odontoblast-like cells for dentin repair.
+D) They primarily function as pericytes within the pulp vasculature.
+Q5: Which of the following statements about odontoblasts in deep dental caries is supported by single-cell transcriptomic data?
+A) They show increased expression of genes involved in odontogenesis, such as ALPL and OMD.
+B) They completely lose their ability to produce dentin in deep caries.
+C) They downregulate all interactions with immune cells.
+D) They exclusively express genes associated with apoptosis.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

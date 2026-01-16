@@ -1,0 +1,25 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Bhattacharya et al. (2024) Genes.h5ad,  and the background information: Lung development is a highly complex process involving a diverse array of cell types, yet our understanding of late-stage human lung development remains incomplete. Animal models have provided critical insights, but translating these findings to human biology is challenging due to species differences. To address this gap, we used single-cell RNA sequencing (scRNA-seq) to create a molecular atlas of newborn human lung cells. This allows us to define distinct cellular populations and their gene signatures, offering new insights into the structural and functional maturation of the human lung at birth.
+Sample Source: Two one-day-old newborn human lungs were obtained through organ donation. One was from a full-term infant (38 weeks gestational age), and the other was preterm (31 weeks gestational age).
+Cell Isolation & Processing: Lungs were enzymatically digested to obtain single-cell suspensions, which were frozen and later used for sequencing.
+Sequencing Platform: Chromium 10X Genomics system (v2 chemistry), sequenced on a HiSeq4000.
+Final Dataset: 5,499 high-quality cells, including epithelial, endothelial, mesenchymal, and immune cells. , analysis the data to answer the following questions: Q1: Which major cell type was found to be the most abundant in the newborn human lung based on single-cell transcriptome data?
+A) Endothelial cells
+B) Epithelial cells
+C) Mesenchymal cells
+D) Immune cells
+Q2: Which of the following markers was specifically associated with matrix fibroblasts in the newborn lung?
+A) SFTPB
+B) HES1
+C) CDH5
+D) PTPRC
+Q3: Based on single-cell transcriptomic data, what was a key characteristic of immune cells in the newborn human lung?
+A) They were only detected in one of the two donors.
+B) They were exclusively macrophages.
+C) They included T cells, B cells, and macrophages with donor-to-donor variation.
+D) They showed no expression of leukocyte markers.
+Q4: What evidence supports the presence of two distinct matrix fibroblast populations in the newborn lung?
+A) Differential expression of EPCAM and PECAM1
+B) Separation of cells based on mitochondrial gene content
+C) Identification of distinct gene expression profiles, including COL6A3 and TCF21
+D) Complete absence of mesenchymal markers in one fibroblast population
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

@@ -1,0 +1,21 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Cowan et al. (2020) Cell - pigment epithelium of eye.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Cowan et al. (2020) Cell - fovea centralis.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Cowan et al. (2020) Cell - retina (organoid).h5ad,  and the background information: In my research, I focused on creating a comprehensive understanding of the types and functions of cells within the human retina and its organoids at single-cell resolution. Retinal diseases are leading causes of irreversible blindness, so examining the cellular landscape is essential for developing treatments. I utilized single-cell RNA sequencing (scRNA-seq) to analyze approximately 285,441 transcriptomes from both human retinas and retinal organoids across various developmental stages. The sequencing data provided detailed insights into the diverse cell types present in the retina and how these types relate to known molecular functions and disease mechanisms. , analysis the data to answer the following questions: Q1: How many distinct cell types in the human retina were identified according to the data?
+A) 8
+B) 10
+C) 13
+D) 16
+Q2: Which area of the retina did the developed organoids predominantly resemble based on transcriptome data?
+A) Macular Region
+B) Foveal Retina
+C) Peripheral Retina
+D) Choroidal Layer
+Q3: According to the data, which type of cell specifically expressed the rod opsin gene?
+A) Cones
+B) Horizontal Cells
+C) Amacrine Cells
+D) Rods
+Q4: Which of the following statements is TRUE regarding disease-associated genes according to the data?
+A) All disease-related genes were equally expressed in every cell type.
+B) Disease-associated genes predominantly expressed in RGCs were linked to retinal diseases.
+C) No correlation between retinal diseases and retinal cell types was found.
+D) Genes related to retinal dysfunction were only expressed in the photoreceptors.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

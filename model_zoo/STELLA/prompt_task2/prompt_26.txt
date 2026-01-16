@@ -1,0 +1,27 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Kurkalang et al. (2023) Cancer Science.h5ad,  and the background information: Oral squamous cell carcinoma of the gingivo-buccal region (OSCC-GB) is one of the most common cancers in India, particularly among men, and is associated with a high rate of recurrence and poor prognosis. Cellular heterogeneity in OSCC-GB tumors plays a crucial role in tumor progression, treatment resistance, and immune evasion, but a detailed characterization of the tumor ecosystem was lacking. Single-cell RNA sequencing (scRNA-seq) provides an opportunity to resolve tumor heterogeneity at a cellular level.
+In this study, I performed scRNA-seq on tumors from 12 OSCC-GB patients, including 3 patients with oral submucous fibrosis (OSMF), a precancerous condition. Using 10X Genomics Chromium platform, I profiled 52,393 cells, retaining 28,186 cells after quality control. The dataset includes malignant epithelial cells, immune cells (T cells, B cells, myeloid cells), fibroblasts, and endothelial cells, allowing an unbiased characterization of OSCC-GB tumor heterogeneity. , analysis the data to answer the following questions: Q1: Which of the following malignant cell transcriptional programs was identified in OSCC-GB tumors?
+A) Epithelial-Mesenchymal Transition (EMT)
+B) Partial Epithelial-Mesenchymal Transition (pEMT)
+C) Fetal Cellular Reprogramming
+D) Cancer-Associated Fibroblast Activation
+Q2: Which gene was significantly upregulated in OSCC-GB tumors with OSMF, allowing for perfect classification between tumors with and without OSMF?
+A) FOS
+B) VIM
+C) GZMB
+D) EPCAM
+Q3: Which immune cell population was found to be uniquely abundant in OSCC-GB tumors, potentially contributing to tumor immunity?
+A) Regulatory T cells (Tregs)
+B) Double-negative (DN) T cells expressing PLCG2
+C) Natural Killer (NK) cells
+D) B cells
+Q4: Which of the following genes were markers of cancer-associated fibroblasts (CAFs) in OSCC-GB?
+A) FAP
+B) PDPN
+C) IL1B
+D) MMP2
+Q5: What key feature distinguished M1-like vs. M2-like macrophages in OSCC-GB tumors?
+A) M1 macrophages expressed pro-inflammatory genes, while M2 macrophages expressed immunosuppressive genes
+B) M1 macrophages were absent, while only M2 macrophages were present
+C) Macrophages in OSCC-GB tumors existed in an intermediate polarization state
+D) M2 macrophages were dominant and expressed only ECM-remodeling genes
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

@@ -1,0 +1,21 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Wiedemann et al. (2023) Cell Reports.h5ad,  and the background information: In my research, I focused on understanding the unique characteristics of human palmoplantar skin compared to non-palmoplantar skin, particularly the hip region. Palmoplantar skin plays a crucial role in providing mechanical resistance due to its specialized structure. However, the cellular and transcriptional programs that differentiate this skin type from others are not well understood. I utilized both bulk and single-cell RNA sequencing (scRNA-seq) from skin biopsies, which allowed me to explore the distinct cellular and molecular environments in different skin sites. The sequencing dataset included samples from 15 healthy individuals, with a total of 30 biopsies from palm, sole, and hip. , analysis the data to answer the following questions: Q1: What major cell types were identified in the single-cell transcriptome data from the skin samples?
+A) Myocytes
+B) Immune cells
+C) Melanocytes
+D) Keratinocytes, fibroblasts
+Q2: What significant change in immune cell populations was observed between palmoplantar and non-palmoplantar skin?
+A) Increased T cell populations in palmoplantar skin
+B) Reduced immune cell populations in palmoplantar skin
+C) Increased B cell populations in non-palmoplantar skin
+D) No significant differences in immune cell populations
+Q3: What distinct feature was noted about the keratinocytes in the sole as compared to the palm?
+A) Higher expression of KRT9 in the sole
+B) Greater fraction of basal keratinocytes in the sole
+C) Stronger immune signaling in sole keratinocytes
+D) Increased differentiation into granular cells in the palm
+Q4: Which of the following statements is true regarding the spinous keratinocyte populations identified in the data?
+A) Both spinous populations exhibit identical functions and expressions.
+B) Spinous I was found to have upregulated oxidative phosphorylation pathways.
+C) The spinous keratinocyte populations culminate in a shared terminal differentiation state.
+D) Spinous II markers show low expression of differentiation genes.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

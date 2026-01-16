@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Yang et al. (2021) Nature.h5ad,  and the background information: In this research, I aimed to explore the neurological effects of severe COVID-19 by examining changes in brain and choroid plexus cell types. Given the reported neurological symptoms in COVID-19 patients, it was crucial to understand the cellular and molecular alterations occurring in the brain following SARS-CoV-2 infection. We utilized single-nucleus RNA sequencing (snRNA-seq) to analyze a large dataset consisting of 65,309 single-nucleus transcriptomes from post-mortem brain samples taken from both control individuals and patients who had died from COVID-19. , analysis the data to answer the following questions: Q1: What did the data reveal regarding SARS-CoV-2 presence in the brain samples?
+A) No SARS-CoV-2 RNA was detected in brain samples.
+B) SARS-CoV-2 RNA was detected in every sample.
+C) SARS-CoV-2 was found only in patients with severe neurological symptoms.
+D) SARS-CoV-2 was detected in the cerebrospinal fluid but not in brain tissue.
+Q2: According to the data, which cell types exhibit a unique transcriptional profile in patients with COVID-19?
+A) Ependymal cells
+B) Microglia and astrocytes
+C) Oligodendrocytes
+D) Neurons only
+Q3: What specific effect on upper-layer excitatory neurons is mentioned in the data?
+A) Upregulation of synaptic genes
+B) Increased proliferation
+C) No effect observed
+D) Downregulation of synaptic genes
+Q4: The data suggest that the communication between which two regions is significantly altered in COVID-19?
+A) Choroid plexus and hippocampus
+B) Choroid plexus and medial frontal cortex
+C) Thalamus and lateral ventricles
+D) Brainstem and spinal cord
+Q5: What is the relationship between the DEGs identified in COVID-19 and known pathways in other diseases? (Select multiple answers)
+A) DEGs overlap with pathways in Alzheimer’s disease.
+B) DEGs show identical patterns as in healthy brains.
+C) DEGs are related to chronic inflammatory conditions.
+D) DEGs are linked to neuroinflammation and cognitive impairment.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

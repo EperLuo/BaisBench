@@ -1,0 +1,32 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Menon et al. (2019) Nat Commun.h5ad,  and the background information: In this study, I created a single-cell transcriptomic atlas of the human retina to identify cell types associated with age-related macular degeneration (AMD). AMD is a leading cause of blindness in the elderly, and its genetic complexity has made it difficult to pinpoint the specific cell types involved. By applying single-cell RNA sequencing (scRNA-seq) using two independent platforms (droplet-based microfluidics and Seq-Well), I analyzed human retinal cell types and their gene expression signatures. The dataset includes 23,339 cells from the macula and peripheral retina of six postmortem donors, covering all major retinal cell types.
+ , analysis the data to answer the following questions: Q1: Which of the following cell types were found to be significantly associated with AMD risk genes in the data?
+A) Cone photoreceptors
+B) Müller glia
+C) Retinal ganglion cells
+D) Vascular cells
+Q2: Recluster the macroglial, which gene markers were identified as specific to macroglial subtypes in the data?
+A) COL4A3
+B) GNAT2
+C) FTL
+D) OPN1SW
+Q3: Which cell type was found to express TIMP3, an AMD risk gene?
+A) Horizontal cells
+B) Müller glia
+C) Rod photoreceptors
+D) Bipolar cells
+Q4: What features distinguished the three macroglial subtypes identified in the data?
+A) FOS-expressing glia were more abundant in the macula
+B) COL4A3-expressing glia were enriched in AMD-risk genes
+C) FTL-expressing glia were associated with iron regulation
+D) All three macroglial subtypes were equally distributed across the retina
+Q5: Which cell type showed the highest association with genetic risk for AMD in the data?
+A) Retinal ganglion cells
+B) Cone photoreceptors
+C) Horizontal cells
+D) Amacrine cells
+. Provide the letter options as answers.
+
+exit
+

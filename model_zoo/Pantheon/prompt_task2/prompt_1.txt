@@ -1,0 +1,32 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Xu et al. (2022) Sci Rep - Nasal.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Xu et al. (2022) Sci Rep - Bronchial.h5ad,  and the background information: The impact of smoking on airway epithelial cells is well known, but how it modulates the expression of SARS-CoV-2 entry genes (ACE2, TMPRSS2, and CTSL) in different airway compartments remains unclear. Understanding these gene expression patterns in nasal vs. bronchial epithelial cells is crucial for evaluating how smoking affects COVID-19 susceptibility and severity.
+To investigate this, I analyzed scRNA-seq data from nasal and bronchial brushings obtained from individuals undergoing lung cancer screening or diagnostic workups. The dataset includes 34,833 single cells from 9 nasal brushings and 2,075 single cells from 17 bronchial brushings. The sequencing was performed using the 10X Genomics platform for single-cell RNA sequencing (scRNA-seq). These data can be used to define airway epithelial cell subpopulations, assess the impact of smoking on gene expression, and identify changes in cell type proportions across smokers and non-smokers. , analysis the data to answer the following questions: Q1: Which epithelial cell type was enriched in the bronchus of smokers and also showed high ACE2 and TMPRSS2 expression?
+A) Basal cells
+B) Goblet cells
+C) Ciliated cells
+D) Keratinizing epithelial cells
+Q2: Which viral entry gene showed higher expression in smokers in the bronchial epithelium but not in the nasal epithelium?
+A) CTSL
+B) TMPRSS2
+C) ACE2
+D) Both B and C
+Q3: Which of the following cell types was significantly reduced in smokers in both nasal and bronchial compartments?
+A) Goblet cells
+B) Ciliated cells
+C) Ionocytes
+D) Basal cells
+Q4: Which cell types in the nasal epithelium showed the highest expression of TMPRSS2 modules?
+A) Club cells
+B) Goblet cells
+C) C15orf48+ secretory cells
+D) Keratinizing epithelial cells
+Q5: What was the primary reason for increased ACE2 and TMPRSS2 expression in the bronchial epithelium of smokers?
+A) ACE2 and TMPRSS2 genes were directly upregulated by cigarette smoke exposure
+B) Smoking increased the proportion of goblet cells, which express high levels of ACE2 and TMPRSS2
+C) Smoking caused mutations in ACE2 and TMPRSS2 genes, leading to higher expression
+D) Smoking altered interferon signaling, leading to global upregulation of viral entry genes
+. Provide the letter options as answers.
+
+exit
+

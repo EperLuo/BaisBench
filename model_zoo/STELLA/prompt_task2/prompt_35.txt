@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Joseph et al. (2020) Prostate - All Mouse Cells.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Joseph et al. (2020) Prostate - Mouse Fibromuscular Stromal Cells.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Joseph et al. (2020) Prostate - Mouse Epithelial Cells.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Joseph et al. (2020) Prostate - All Human Cells.h5ad, /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Joseph et al. (2020) Prostate - Human Fibromuscular Stromal Cells.h5ad,  and the background information: In this study, we aimed to characterize the cellular composition of the mouse and human prostate, with a focus on urethral luminal epithelial cells and their role in castration resistance and benign prostatic hyperplasia (BPH). Previous research has identified facultative prostate progenitors in the proximal prostate, but their precise anatomical and molecular identity remains unclear. Using single-cell RNA sequencing (scRNA-seq) on mouse prostate and urethral epithelial cells, as well as human prostate cells, we identified the urethral luminal epithelial population as a distinct and castration-insensitive cell type. The sequencing dataset includes four mouse prostates and three mouse urethra samples, along with deeper sequencing of three previously analyzed human prostate specimens. , analysis the data to answer the following questions: Q1: Which epithelial cell population in the prostate was identified as castration-resistant?
+A) Secretory luminal epithelial cells (NKX3.1+)
+B) Basal epithelial cells (KRT5+, TP63+)
+C) Urethral luminal epithelial cells (KRT4+, Trop2+)
+D) Neuroendocrine epithelial cells
+Q2: What key molecular feature distinguishes urethral luminal epithelial cells from prostate secretory luminal cells?
+A) High expression of NKX3.1 and CD26
+B) Lack of epithelial-specific gene expression
+C) Expression of androgen receptor (AR) but no basal markers
+D) High expression of KRT4 and Trop2
+Q3: What was the effect of castration on the urethral luminal cell population in the prostate?
+A) Complete loss of urethral luminal cells
+B) Increased abundance of Trop2+ urethral luminal cells in the proximal prostate
+C) Increased androgen receptor expression in urethral luminal cells
+D) Induction of epithelial-mesenchymal transition (EMT) in urethral luminal cells
+Q4: Based on a combination of transcriptomic data and external knowledge, which of the following hypotheses about urethral luminal epithelial cells is supported?
+A) They are exclusively found in fetal prostate development and disappear in adulthood.
+B) They serve as a primary site of prostate cancer initiation under castration-resistant conditions.
+C) They act as facultative progenitors for prostate regeneration after androgen deprivation.
+D) They contribute to BPH by expanding within the periurethral transition zone.
+Q5: Which of the following findings were based on a combination of single-cell transcriptomic data and external knowledge?
+A) Urethral luminal cells share transcriptional features with lung club cells.
+B) BPH may result from the "reawakening" of embryonic signaling pathways.
+C) Urethral luminal cells are completely eliminated following 5ARI treatment.
+D) Urethral luminal cells are present in early fetal prostate development and persist into adulthood.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

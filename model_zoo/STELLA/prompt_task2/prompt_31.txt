@@ -1,0 +1,26 @@
+Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Horeth et al. (2023) J Dent Res.h5ad,  and the background information: In this research, I aimed to explore the transcriptomic landscape of the human submandibular gland (SMG) to better understand its cellular complexity and functionality. The goal was to elucidate the diverse cellular populations present in the SMG, particularly focusing on the roles of epithelial cells in health and disease. To achieve this, I performed bulk RNA sequencing to obtain a broad overview of gene expression patterns and utilized single-cell RNA sequencing (scRNA-seq) to delve into the intricacies of individual cell types. I collected normal human SMG samples from both male and female adult patients undergoing surgery for unrelated pathologies, leading to the generation of high-quality transcriptomic data. , analysis the data to answer the following questions: Q1: What type of cells were primarily identified and characterized in the human SMG using single-cell RNA sequencing?
+A) Myoepithelial cells
+B) Epithelial, fibroblast, and immune cells
+C) Lymphocytes only
+D) Adipocytes
+Q2: Which of the following findings was directly supported by the data concerning gender differences in SMG transcriptomes?
+A) Significant variation in expression profiles between men and women.
+B) Only 22 differentially expressed genes related to sex.
+C) Female SMGs exhibited higher overall gene expression.
+D) No observable differences between genders at the transcriptomic level.
+Q3: How many distinct cell populations were identified in the data from the human SMG?
+A) 10
+B) 12
+C) 14
+D) 16
+Q4: Which signaling pathways were predominantly involved in the cell-to-cell interactions observed in the human SMG? (Multiple Choices)
+A) VEGF
+B) MHC-I
+C) ERBB
+D) WNT
+Q5: What was a notable characteristic of the mucous acinar cells identified in the research?
+A) They are exclusively found in mouse models.
+B) They do not express any known ligands or receptors.
+C) They displayed higher expression levels of several ligands and receptors compared to other cell types, including ALCAM, CDH1,CD55, and CD44.
+D) They are larger than other acinar cells.
+. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself; you cannot directly consult the original literature corresponding to the dataset.

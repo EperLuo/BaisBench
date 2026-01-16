@@ -1,0 +1,26 @@
+/model claude-3-5-haiku-20241022 
+
+ Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Heimlich et al. (2024) Blood Advances.h5ad,  and the background information: In this research, I aimed to explore how mutations in clonal hematopoiesis (CH), specifically in TET2 and DNMT3A, affect peripheral blood cells and contribute to inflammation. These mutations are linked to an increased risk of hematologic malignancy and cardiovascular disease. Using single-cell RNA sequencing (scRNA-seq) combined with mitochondrial DNA (mtDNA) barcoding, I profiled gene expression and mutation status in 66,968 peripheral blood cells from 17 patients with CH and 7 controls. This multiomic approach allowed for a direct comparison of mutant and non-mutant cells, revealing how genetic mutations shape cellular phenotypes and inflammatory pathways. , analysis the data to answer the following questions: Q1: Which of the following cytokines showed significantly increased expression in TET2-mutant CD14+ monocytes compared to controls?
+A. CXCL3
+B. TNF-α
+C. IL-6
+D. IL-10
+Q2: Which protein family was found to be downregulated in both CD4+ and CD8+ T cells from CH patients? 
+A. TLR4
+B. NF-κB
+C. GIMAP
+D. CD3
+Q3: Which of the following pathways was upregulated in both TET2 and DNMT3A mutant CD14+ monocytes?
+A. Leukocyte migration
+B. Cell cycle regulation
+C. T-cell activation
+D. Endothelial barrier disruption
+Q4: What is the significance of the GIMAP protein family downregulation in T cells?
+A. It is linked to autoimmune disease
+B. It enhances T-cell activation
+C. It leads to an increase in T-cell numbers
+D. It suggests impaired T-cell differentiation
+. Provide the letter options as answers.
+
+exit
+
