@@ -1677,21 +1677,21 @@ def get_agent_contributions(agent_name: str) -> str:
 
 claude_model = OpenAIServerModel(
     model_id="claude-sonnet-4-20250514",
-    api_base="https://api.zyai.online/v1/",
+    api_base="xxx/v1/",
     api_key=OPENROUTER_API_KEY_STRING,
 )
 
 # Create a more capable model for manager and critic agents
 gemini_model = OpenAIServerModel(
     model_id="gemini-2.5-pro",
-    api_base="https://api.zyai.online/v1/",
+    api_base="xxx/v1/",
     api_key=OPENROUTER_API_KEY_STRING,
     temperature=0.1,  # Lower temperature for more consistent analysis
 )
 
 grok_model = OpenAIServerModel(
     model_id="grok-4",
-    api_base="https://api.zyai.online/v1/",
+    api_base="xxx/v1/",
     api_key=OPENROUTER_API_KEY_STRING,
     temperature=0.1,  # Lower temperature for more consistent analysis
 )

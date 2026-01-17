@@ -5,8 +5,8 @@ import os
 import time
 
 # Initialize the agent with data path, Data lake will be automatically downloaded on first run (~11GB)
-agent = A1(path='./data', llm='claude-3-5-haiku-20241022', base_url="https://api.zyai.online",
-           api_key="sk-v18IaL8IdUxcA2GF6aE8E694Ec1d4791898086B9606eF018", 
+agent = A1(path='./data', llm='claude-3-5-haiku-20241022', base_url="xxx",
+           api_key="sk-xxx", 
            source="Anthropic",
            expected_data_lake_files = [])
 

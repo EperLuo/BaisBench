@@ -1,8 +1,8 @@
 #working
 import openai
 
-openai.api_key = 'sk-JWaappdQWASN6NH94fFf505eFd3249539aA96d7cE4432b58'
-openai.base_url = "https://api.vveai.com/v1/"
+openai.api_key = 'sk-xxx'
+openai.base_url = "xxx"
 
 def ask(question, session_prompt="The following is a conversation with an AI assistant."):
     try:

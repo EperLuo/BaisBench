@@ -90,7 +90,7 @@ INFO:httpx:HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 
 │                                                                                                    │
 ╰─ OpenAIModel - grok-4 ─────────────────────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
 
 Could not create share link. Missing file: /home/lep/.cache/huggingface/gradio/frpc/frpc_linux_amd64_v0.3. 
 
@@ -138,7 +138,7 @@ Code execution failed at line 'with h5py.File(filename, 'r') as f:
 Missing optional dependency 'pytables'.  Use pip or conda to install pytables.
 [Step 1: Duration 48.76 seconds| Input tokens: 7,639 | Output tokens: 2,675]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -213,7 +213,7 @@ group "/obs/assay" (2 members)> with 'slice(None, None, None)': TypeError: Acces
 with bytes or str, not <class 'slice'>
 [Step 2: Duration 36.07 seconds| Input tokens: 16,420 | Output tokens: 9,023]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
                                                                                                       
@@ -397,7 +397,7 @@ Code execution failed at line 'with h5py.File(filename, 'r') as f:
 __name__
 [Step 3: Duration 38.98 seconds| Input tokens: 26,829 | Output tokens: 16,982]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
 Error in code parsing:
 Your code snippet is invalid, because the regex pattern <code>(.*?)</code> was not found in it.
             Here is your code snippet:
@@ -418,7 +418,7 @@ Your code snippet is invalid, because the regex pattern <code>(.*?)</code> was n
 Make sure to provide correct code blobs.
 [Step 4: Duration 44.35 seconds| Input tokens: 40,480 | Output tokens: 17,012]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -517,7 +517,7 @@ Other option genes present? False
 Out: None
 [Step 5: Duration 31.36 seconds| Input tokens: 54,313 | Output tokens: 22,373]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Continuing from previous state (obs, var, X persist in REPL)                                      
   # Decode gene names (feature_name is bytes)                                                         
@@ -584,7 +584,7 @@ INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/
 │                                                                                                    │
 ╰─ OpenAIModel - google/gemini-2.5-pro ──────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/chat/completions "HTTP/1.1 200 OK"
 Error while generating output:
 'str' object has no attribute 'choices'
 [Step 1: Duration 1.36 seconds]
@@ -618,7 +618,7 @@ established loci like CFH, ARMS2; include TIMP3 if present). Return as Python li
 'str' object has no attribute 'choices'
 [Step 6: Duration 33.85 seconds| Input tokens: 70,088 | Output tokens: 27,393]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 7 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   final_answer("""                                                                                    
   Q1: B                                                                                               

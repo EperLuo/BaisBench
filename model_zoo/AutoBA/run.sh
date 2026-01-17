@@ -10,7 +10,7 @@ EXECUTE="True"
 
 # === OpenAI Key：用环境变量提供（不要写进脚本）===
 # : "${OPENAI_API_KEY:?Please export OPENAI_API_KEY before running.}"
-OPENAI_API_KEY="sk-kIjA9Jgja2TPF6UD0f9b788028684aB7B9B282F2A582FcD8"
+OPENAI_API_KEY="sk-xxx"
 
 # 记录总开始时间
 total_start=$(date +%s)
@@ -67,7 +67,7 @@ echo "[ALL DONE] Total elapsed: $((total_end - total_start))s"
 
 
 
-# python app.py --config ./examples/Adipose/config.yaml --openai sk-4fZXCtTZCuQrWU9JE06999C49e9241489f2bE77fB7229290 --model gpt-4.1-2025-04-14 --execute True 2>&1 | tee ./examples/Adipose/output/autoba.log
+# python app.py --config ./examples/Adipose/config.yaml --openai sk-xxx --model gpt-4.1-2025-04-14 --execute True 2>&1 | tee ./examples/Adipose/output/autoba.log
 
 # perl -pe 's/\r/\n/g; s/\x1b\[[0-?]*[ -\/]*[@-~]//g; s/\x1b\][^\x07]*(\x07|\x1b\\)//g; s/\x1b[@-Z\\-_]//g;' "examples/Adipose/output/autoba.log" \
 #   | grep -vE 'Processing\.\.\.|Running run_python_code' \

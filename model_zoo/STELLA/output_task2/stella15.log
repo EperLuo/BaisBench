@@ -82,7 +82,7 @@ INFO:httpx:HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 
 │                                                                                                                                     │
 ╰─ OpenAIModel - grok-4 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
 
 Could not create share link. Missing file: /home/lep/.cache/huggingface/gradio/frpc/frpc_linux_amd64_v0.3. 
 

@@ -96,7 +96,7 @@ INFO:httpx:HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 
 │                                                                                                    │
 ╰─ OpenAIModel - grok-4 ─────────────────────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
 
 Could not create share link. Missing file: /home/lep/.cache/huggingface/gradio/frpc/frpc_linux_amd64_v0.3. 
 
@@ -197,7 +197,7 @@ analysis if available.
 Out: None
 [Step 1: Duration 142.40 seconds| Input tokens: 7,794 | Output tokens: 7,261]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Load relevant tools for scRNA-seq analysis                                                        
   tool_status = analyze_query_and_load_relevant_tools(                                                
@@ -215,7 +215,7 @@ Tool loading status:
 Out: None
 [Step 2: Duration 48.07 seconds| Input tokens: 17,665 | Output tokens: 13,292]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import os                                                                                           
   import numpy as np                                                                                  
@@ -312,7 +312,7 @@ Merged dataset shape: (36908, 38732)
 Out: None
 [Step 3: Duration 116.86 seconds| Input tokens: 27,958 | Output tokens: 14,445]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Continuing from previous: adata_nasal, adata_bronchial, adata_merged available (stateful)         
                                                                                                       
@@ -487,7 +487,7 @@ Suprabasal cells              0.019318
 Name: TMPRSS2, dtype: float64
 [Step 4: Duration 37.30 seconds| Input tokens: 40,865 | Output tokens: 17,334]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Continuing stateful: adata_nasal, adata_bronchial, adata_nasal_epi (empty), adata_bronchial_epi   
   available                                                                                           
@@ -659,7 +659,7 @@ Q5 inference: Bronchial Goblet proportion - Smokers: 20.93%, Non: 10.15%; Increa
 Out: None
 [Step 5: Duration 180.00 seconds| Input tokens: 57,924 | Output tokens: 20,302]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Evaluate analysis quality using critic agent                                                      
   evaluation = evaluate_with_critic(                                                                  
@@ -709,7 +709,7 @@ INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/
 │                                                                                                    │
 ╰─ OpenAIModel - anthropic/claude-sonnet-4-20250514 ─────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/chat/completions "HTTP/1.1 200 OK"
 Error while generating output:
 'str' object has no attribute 'choices'
 [Step 1: Duration 0.80 seconds]
@@ -721,7 +721,7 @@ Error in critic evaluation: Error while generating output:
 Out: None
 [Step 6: Duration 57.88 seconds| Input tokens: 79,766 | Output tokens: 21,222]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 7 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   final_answer("""                                                                                    
   **STELLA's Data-Driven Answers to scRNA-seq Questions:**                                            

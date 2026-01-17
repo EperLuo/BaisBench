@@ -5,8 +5,8 @@ import os
 import time
 
 # Initialize the agent with data path, Data lake will be automatically downloaded on first run (~11GB)
-agent = A1(path='./data', llm='gemini-2.5-pro-preview-05-06', base_url="https://api.zyai.online/v1/",
-           api_key="sk-1DvJU55vLb62Fmde0a4f368125954bDaB7227b21Ea31Db2c", 
+agent = A1(path='./data', llm='gemini-2.5-pro-preview-05-06', base_url="xxx/v1/",
+           api_key="sk-xxx", 
            source="Gemini",
            expected_data_lake_files = [])
 

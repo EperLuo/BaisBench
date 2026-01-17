@@ -90,7 +90,7 @@ INFO:httpx:HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 
 │                                                                                                    │
 ╰─ OpenAIModel - grok-4 ─────────────────────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
 
 Could not create share link. Missing file: /home/lep/.cache/huggingface/gradio/frpc/frpc_linux_amd64_v0.3. 
 
@@ -118,7 +118,7 @@ Execution logs:
 Out: None
 [Step 1: Duration 24.87 seconds| Input tokens: 7,690 | Output tokens: 4,760]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -237,7 +237,7 @@ f['var'\][k\].shape[0\] > 0})
 object has no attribute 'shape'
 [Step 2: Duration 38.13 seconds| Input tokens: 16,092 | Output tokens: 10,936]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -402,7 +402,7 @@ is gene names
 attribute 'shape'
 [Step 3: Duration 93.36 seconds| Input tokens: 27,210 | Output tokens: 20,131]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -466,7 +466,7 @@ Code execution failed at line 'with h5py.File(file_path, 'r') as f:
 to dunder attribute: __name__
 [Step 4: Duration 16.66 seconds| Input tokens: 41,271 | Output tokens: 22,683]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -596,7 +596,7 @@ Layers available: []
 Out: None
 [Step 5: Duration 65.02 seconds| Input tokens: 56,601 | Output tokens: 23,847]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   final_answer("""                                                                                    
   Q1: A                                                                                               

@@ -85,7 +85,7 @@ INFO:httpx:HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 
 │                                                                                                    │
 ╰─ OpenAIModel - grok-4 ─────────────────────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
 
 Could not create share link. Missing file: /home/lep/.cache/huggingface/gradio/frpc/frpc_linux_amd64_v0.3. 
 
@@ -133,7 +133,7 @@ Validation: Use statistical tests (e.g., Wilcoxon) for significance; output lett
 Out: None
 [Step 1: Duration 26.63 seconds| Input tokens: 7,588 | Output tokens: 3,905]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Load single-cell analysis tools                                                                   
   tool_status = analyze_query_and_load_relevant_tools("single-cell RNA-seq h5ad analysis scanpy       
@@ -146,7 +146,7 @@ Execution logs:
 Out: None
 [Step 2: Duration 23.78 seconds| Input tokens: 16,276 | Output tokens: 7,960]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import pandas as pd                                                                                 
   import numpy as np                                                                                  
@@ -194,7 +194,7 @@ Data loading complete. Ready for analysis.
 Out: None
 [Step 3: Duration 26.42 seconds| Input tokens: 25,270 | Output tokens: 11,838]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import pandas as pd                                                                                 
   import numpy as np                                                                                  
@@ -305,7 +305,7 @@ Structure inspection complete. Next: Targeted analysis if metadata accessible.
 Out: None
 [Step 4: Duration 30.44 seconds| Input tokens: 35,359 | Output tokens: 16,246]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -427,7 +427,7 @@ not index <HDF5 group "/obs/cellxgene_cell_type" (2 members)> with 'slice(None, 
 TypeError: Accessing a group is done with bytes or str, not <class 'slice'>
 [Step 5: Duration 28.85 seconds| Input tokens: 47,885 | Output tokens: 21,483]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -706,7 +706,7 @@ Code execution failed at line 'b_cells_mask = metadata_df['cell_type'\].str.cont
 na=False)' due to: AttributeError: Can only use .str accessor with string values!
 [Step 6: Duration 22.27 seconds| Input tokens: 63,646 | Output tokens: 24,960]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 7 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Delegate to tool_creation_agent for custom h5ad analysis tool                                     
   tool_creation_result = create_new_tool(                                                             
@@ -750,7 +750,7 @@ INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/
 │                                                                                                    │
 ╰─ OpenAIModel - anthropic/claude-sonnet-4-20250514 ─────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/chat/completions "HTTP/1.1 200 OK"
 Error while generating output:
 'str' object has no attribute 'choices'
 [Step 1: Duration 1.03 seconds]
@@ -761,7 +761,7 @@ Execution logs:
 Out: None
 [Step 7: Duration 34.06 seconds| Input tokens: 86,623 | Output tokens: 27,438]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 8 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Use dev_agent to create and run a custom h5ad loader script for JDM analysis                      
   loader_script = dev_agent(                                                                          
@@ -835,7 +835,7 @@ INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/
 │                                                                                                    │
 ╰─ OpenAIModel - google/gemini-2.5-pro ──────────────────────────────────────────────────────────────╯
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/chat/completions "HTTP/1.1 200 OK"
 Error while generating output:
 'str' object has no attribute 'choices'
 [Step 1: Duration 1.00 seconds]
@@ -864,7 +864,7 @@ Q1='C'). Use exact gene matches; handle missing with 'nan'. No external libs bey
 'str' object has no attribute 'choices'
 [Step 8: Duration 16.04 seconds| Input tokens: 110,324 | Output tokens: 29,167]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 9 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   import h5py                                                                                         
   import pandas as pd                                                                                 
@@ -1031,7 +1031,7 @@ else 'C'  # Assume skew
           ^
 [Step 9: Duration 34.29 seconds| Input tokens: 135,783 | Output tokens: 32,677]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 10 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   # Final answers from data analysis                                                                  
   final_answers = {                                                                                   
@@ -1055,7 +1055,7 @@ Q4: A
 Out: None
 [Step 10: Duration 12.31 seconds| Input tokens: 166,144 | Output tokens: 33,486]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Step 11 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-INFO:httpx:HTTP Request: POST https://api.zyai.online/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST xxx/v1/chat/completions "HTTP/1.1 200 OK"
  ─ Executing parsed code: ─────────────────────────────────────────────────────────────────────────── 
   final_answer("""                                                                                    
   **STELLA's Data-Driven Answers (from h5ad Analysis):**                                              

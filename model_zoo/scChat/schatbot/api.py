@@ -6,8 +6,8 @@ import openai
 # To use the OpenAI API key from settings
 from django.conf import settings
 # openai.api_key = settings.OPENAI_API_KEY
-openai.api_key = 'sk-JWaappdQWASN6NH94fFf505eFd3249539aA96d7cE4432b58'
-openai.base_url = 'https://api.vveai.com/v1/'
+openai.api_key = 'sk-xxx'
+openai.base_url = 'xxx'
 
 router = Router()
 

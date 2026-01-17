@@ -55,8 +55,8 @@ display_flag = False
 load_dotenv()
 # openai.api_key = os.getenv("OPENAI_API_KEY")
 
-openai.api_key = 'sk-JWaappdQWASN6NH94fFf505eFd3249539aA96d7cE4432b58'
-openai.base_url = 'https://api.vveai.com/v1/'
+openai.api_key = 'sk-xxx'
+openai.base_url = 'xxx'
 
 data = pd.DataFrame({
     'feature1': [0.1, 0.2, 0.3, 0.4],
@@ -1308,8 +1308,8 @@ def start_chat2_web(user_input, conversation_history):
     conversation_history2 = conversation_history
     # print(conversation_history)
     # openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.api_key = 'sk-JWaappdQWASN6NH94fFf505eFd3249539aA96d7cE4432b58'
-    openai.base_url = 'https://api.vveai.com/v1/'
+    openai.api_key = 'sk-xxx'
+    openai.base_url = 'xxx'
 
     base_conversation_history.append({"role": "user", "content": user_input})
     # print (conversation_history)

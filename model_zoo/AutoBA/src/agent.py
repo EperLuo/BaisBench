@@ -104,7 +104,7 @@ class Agent:
             self.openai_client = OpenAI(
                 # This is the default and can be omitted
                 api_key=self.openai_api,
-                base_url='https://api.zyai.online/v1',
+                base_url='xxx/v1',
             )
 
         # load local model with ollama

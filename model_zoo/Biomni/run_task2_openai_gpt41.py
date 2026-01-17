@@ -5,8 +5,8 @@ import os
 import time
 
 # Initialize the agent with data path, Data lake will be automatically downloaded on first run (~11GB)
-agent = A1(path='./data', llm='gpt-4.1', base_url="https://api.zyai.online/v1",
-           api_key="sk-iLH9c0vtudnbH8pt1895F98aF25748A593C271527dDbB81d", 
+agent = A1(path='./data', llm='gpt-4.1', base_url="xxx/v1",
+           api_key="sk-xxx", 
            source="OpenAI",
            expected_data_lake_files = [])
 
