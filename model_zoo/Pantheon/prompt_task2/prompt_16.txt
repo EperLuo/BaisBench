@@ -1,10 +1,10 @@
-/model claude-3-5-haiku-20241022 
+/model claude-sonnet-4-20250514
 
  Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Szabo et al. (2019) Nat Commun.h5ad,  and the background information: T cells play a crucial role in adaptive immunity, but their function and persistence vary depending on the tissue microenvironment. While blood-derived T cells have been extensively studied, less is known about how T cell function is shaped by tissue-specific contexts such as the lungs, lymph nodes, and bone marrow. We used single-cell RNA sequencing (scRNA-seq) to profile more than 50,000 resting and activated T cells from different anatomical sites to understand their transcriptional signatures in homeostasis and activation. Our study establishes a high-resolution reference map of human T cell states across tissues, providing a framework to analyze immune responses in health and disease.
 Sample Source: T cells were isolated from lungs, lymph nodes, bone marrow (from two organ donors), and peripheral blood (from two healthy volunteers).
 Cell Isolation & Processing: CD3+ T cells were negatively selected, cultured in either resting conditions or activated using anti-CD3/anti-CD28 stimulation.
 Sequencing Platform: Chromium 10X Genomics system, sequenced on an Illumina HiSeq 4000.
-Final Dataset: >50,000 T cells, classified into resting and activated states, across CD4+ and CD8+ T cell subtypes. , analysis the data to answer the following questions: Q1: Which of the following activation states was identified in CD4+ T cells based on single-cell transcriptomic data?
+Final Dataset: >50,000 T cells, classified into resting and activated states, across CD4+ and CD8+ T cell subtypes. , analysis the data to answer the following questions. You can only arrive at the answer by analyzing the data yourself. You can only use your existing knowledge; you can not search the internet for answers; you cannot directly consult the original literature corresponding to the dataset. Q1: Which of the following activation states was identified in CD4+ T cells based on single-cell transcriptomic data?
 A) An interferon-responsive state characterized by IFIT3 and STAT1 expression
 B) A cytotoxic state with increased PRF1 and GZMK expression
 C) A naive state expressing FOXP3 and IL2RA

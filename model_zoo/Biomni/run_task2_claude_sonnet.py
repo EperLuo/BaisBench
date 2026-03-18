@@ -39,11 +39,11 @@ for question_id in range(41):
             h5ad_path += f"/data/lep/BaisBench/Task2_data/h5ad_file/{h5ad}, "
 
     # Execute biomedical tasks using natural language
-    agent.go("Given these single cell RNA-seq data {} and the background information: {} , analysis the data to answer the following questions: {}. Provide the letter options as answers.".format(h5ad_path, background_info, questions))
+    agent.go("Given these single cell RNA-seq data {} and the background information: {} , analysis the data to answer the following questions: {}. Provide the letter options as answers. You can only arrive at the answer by analyzing the data yourself. You can only use your existing knowledge; you can not search the internet for answers; you cannot directly consult the original literature corresponding to the dataset.".format(h5ad_path, background_info, questions))
 
     # Save conversation history as PDF
     name = str(question_id+1)
-    agent.save_conversation_history(f"output/analysis_results_{name}.pdf")
+    agent.save_conversation_history(f"output_claude_sonnet/analysis_results_{name}.pdf")
 
 end_time = time.time()
 elapsed_time = end_time - start_time

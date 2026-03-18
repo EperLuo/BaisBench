@@ -1,7 +1,7 @@
-/model claude-3-5-haiku-20241022 
+/model claude-sonnet-4-20250514
 
  Given these single cell RNA-seq data /data/lep/BaisBench/Task2_data/h5ad_file/task2 - Menon et al. (2019) Nat Commun.h5ad,  and the background information: In this study, I created a single-cell transcriptomic atlas of the human retina to identify cell types associated with age-related macular degeneration (AMD). AMD is a leading cause of blindness in the elderly, and its genetic complexity has made it difficult to pinpoint the specific cell types involved. By applying single-cell RNA sequencing (scRNA-seq) using two independent platforms (droplet-based microfluidics and Seq-Well), I analyzed human retinal cell types and their gene expression signatures. The dataset includes 23,339 cells from the macula and peripheral retina of six postmortem donors, covering all major retinal cell types.
- , analysis the data to answer the following questions: Q1: Which of the following cell types were found to be significantly associated with AMD risk genes in the data?
+ , analysis the data to answer the following questions. You can only arrive at the answer by analyzing the data yourself. You can only use your existing knowledge; you can not search the internet for answers; you cannot directly consult the original literature corresponding to the dataset. Q1: Which of the following cell types were found to be significantly associated with AMD risk genes in the data?
 A) Cone photoreceptors
 B) Müller glia
 C) Retinal ganglion cells
